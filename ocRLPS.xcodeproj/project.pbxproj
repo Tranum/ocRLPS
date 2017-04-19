@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		14320F921EA7ADE400C304C8 /* ocRLPS.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320F901EA7ADE400C304C8 /* ocRLPS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FA21EA7AEE400C304C8 /* rlpsDWList.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320F981EA7AEE400C304C8 /* rlpsDWList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FA31EA7AEE400C304C8 /* rlpsDWList.m in Sources */ = {isa = PBXBuildFile; fileRef = 14320F991EA7AEE400C304C8 /* rlpsDWList.m */; };
+		14320FA41EA7AEE400C304C8 /* rlpsFormatStr.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320F9A1EA7AEE400C304C8 /* rlpsFormatStr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FA51EA7AEE400C304C8 /* rlpsFormatStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 14320F9B1EA7AEE400C304C8 /* rlpsFormatStr.m */; };
+		14320FA61EA7AEE400C304C8 /* rlpsLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320F9C1EA7AEE400C304C8 /* rlpsLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FA71EA7AEE400C304C8 /* rlpsLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14320F9D1EA7AEE400C304C8 /* rlpsLog.m */; };
+		14320FA81EA7AEE400C304C8 /* rlpsNSObjStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320F9E1EA7AEE400C304C8 /* rlpsNSObjStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FA91EA7AEE400C304C8 /* rlpsNSObjStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 14320F9F1EA7AEE400C304C8 /* rlpsNSObjStack.m */; };
+		14320FAA1EA7AEE400C304C8 /* rlpsThreadPipe.h in Headers */ = {isa = PBXBuildFile; fileRef = 14320FA01EA7AEE400C304C8 /* rlpsThreadPipe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14320FAB1EA7AEE400C304C8 /* rlpsThreadPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 14320FA11EA7AEE400C304C8 /* rlpsThreadPipe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14320F8D1EA7ADE400C304C8 /* ocRLPS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ocRLPS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14320F901EA7ADE400C304C8 /* ocRLPS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ocRLPS.h; sourceTree = "<group>"; };
 		14320F911EA7ADE400C304C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14320F981EA7AEE400C304C8 /* rlpsDWList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlpsDWList.h; sourceTree = "<group>"; };
+		14320F991EA7AEE400C304C8 /* rlpsDWList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rlpsDWList.m; sourceTree = "<group>"; };
+		14320F9A1EA7AEE400C304C8 /* rlpsFormatStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlpsFormatStr.h; sourceTree = "<group>"; };
+		14320F9B1EA7AEE400C304C8 /* rlpsFormatStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rlpsFormatStr.m; sourceTree = "<group>"; };
+		14320F9C1EA7AEE400C304C8 /* rlpsLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlpsLog.h; sourceTree = "<group>"; };
+		14320F9D1EA7AEE400C304C8 /* rlpsLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rlpsLog.m; sourceTree = "<group>"; };
+		14320F9E1EA7AEE400C304C8 /* rlpsNSObjStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlpsNSObjStack.h; sourceTree = "<group>"; };
+		14320F9F1EA7AEE400C304C8 /* rlpsNSObjStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rlpsNSObjStack.m; sourceTree = "<group>"; };
+		14320FA01EA7AEE400C304C8 /* rlpsThreadPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlpsThreadPipe.h; sourceTree = "<group>"; };
+		14320FA11EA7AEE400C304C8 /* rlpsThreadPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rlpsThreadPipe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +66,16 @@
 		14320F8F1EA7ADE400C304C8 /* ocRLPS */ = {
 			isa = PBXGroup;
 			children = (
+				14320F981EA7AEE400C304C8 /* rlpsDWList.h */,
+				14320F991EA7AEE400C304C8 /* rlpsDWList.m */,
+				14320F9A1EA7AEE400C304C8 /* rlpsFormatStr.h */,
+				14320F9B1EA7AEE400C304C8 /* rlpsFormatStr.m */,
+				14320F9C1EA7AEE400C304C8 /* rlpsLog.h */,
+				14320F9D1EA7AEE400C304C8 /* rlpsLog.m */,
+				14320F9E1EA7AEE400C304C8 /* rlpsNSObjStack.h */,
+				14320F9F1EA7AEE400C304C8 /* rlpsNSObjStack.m */,
+				14320FA01EA7AEE400C304C8 /* rlpsThreadPipe.h */,
+				14320FA11EA7AEE400C304C8 /* rlpsThreadPipe.m */,
 				14320F901EA7ADE400C304C8 /* ocRLPS.h */,
 				14320F911EA7ADE400C304C8 /* Info.plist */,
 			);
@@ -59,7 +89,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14320FA21EA7AEE400C304C8 /* rlpsDWList.h in Headers */,
 				14320F921EA7ADE400C304C8 /* ocRLPS.h in Headers */,
+				14320FA61EA7AEE400C304C8 /* rlpsLog.h in Headers */,
+				14320FAA1EA7AEE400C304C8 /* rlpsThreadPipe.h in Headers */,
+				14320FA81EA7AEE400C304C8 /* rlpsNSObjStack.h in Headers */,
+				14320FA41EA7AEE400C304C8 /* rlpsFormatStr.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14320FA71EA7AEE400C304C8 /* rlpsLog.m in Sources */,
+				14320FA31EA7AEE400C304C8 /* rlpsDWList.m in Sources */,
+				14320FA91EA7AEE400C304C8 /* rlpsNSObjStack.m in Sources */,
+				14320FAB1EA7AEE400C304C8 /* rlpsThreadPipe.m in Sources */,
+				14320FA51EA7AEE400C304C8 /* rlpsFormatStr.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +288,7 @@
 				INFOPLIST_FILE = ocRLPS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = net.deepwatertech.ocRLPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -266,6 +307,7 @@
 				INFOPLIST_FILE = ocRLPS/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = net.deepwatertech.ocRLPS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
